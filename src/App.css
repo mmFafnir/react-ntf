@@ -1374,8 +1374,6 @@ template {
 @media (max-width: 770px) {
   .hero__btn {
     min-width: 230px;
-    margin-right: 22px;
-    margin-bottom: 10px;
   }
 }
 
@@ -3750,6 +3748,9 @@ template {
 
 .form__btn-wrap {
   text-align: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
 .form__btn {

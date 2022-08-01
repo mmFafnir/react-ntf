@@ -26,7 +26,6 @@ function App() {
   const [genderOpen, setGenderOpen] = useState(false);
   const [notifyModal, setNotifyModal] = useState({ text: '', status: false });
 
-  const [bgPositon, setBgPosition] = useState([]);
 
 
   const updateBgData = () => {
@@ -39,12 +38,12 @@ function App() {
       const obj = {target: bg, top: top, bottom: bottom};
       arrBg.push(obj)
     })
-    setBgPosition(arrBg)
+    paralaxBgMain(arrBg)
   }
 
-  const paralaxBgMain = () => {
+  const paralaxBgMain = (posBg) => {
     document.addEventListener('scroll', () => {
-      bgPositon.forEach(item => {
+      posBg.forEach(item => {
         if(window.scrollY > item.top && item.bottom > window.scrollY) {
             const rect = item.target.getBoundingClientRect();
             item.target.classList.add('focus');
@@ -64,14 +63,9 @@ function App() {
     updateBgData();
     window.addEventListener('resize', () => {
       setTimeout(() => updateBgData(), 100,)
-    })
-
-    
+    })    
   }, [])
 
-  useEffect(() => {
-    paralaxBgMain()
-  }, [bgPositon])
   return (
     <div className="App wrapper">
         <Header setGenderOpen={setGenderOpen} setWalletOpen={setWalletOpen}/>

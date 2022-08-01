@@ -46,7 +46,7 @@ const Elements = () => {
                     <div key={elem.title + elem.value} className={`elements__item elements__item--${elem.title.toLocaleLowerCase()}`}>
                         <div className="elements__item-head">{elem.title}</div>
                         <div className="elements__item-masks">
-                            <img src={`/img/elements/elements-${index + 1}.png`} alt="masks"/>
+                            <img src={`./img/elements/elements-${index + 1}.png`} alt="masks"/>
                         </div>
                         <div className="elements__item-footer">{elem.value}</div>
                     </div>

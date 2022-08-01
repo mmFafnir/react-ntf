@@ -2,15 +2,14 @@ import React, { memo } from 'react';
 import { facts } from '../utils/facts';
 
 import bgImg from '../img/page/main-bg3.png';
-import bgMobOmg from '../img/page/main-bg_mob2.png';
+import bgMobImg from '../img/page/main-bg_mob2.png';
 import BgImg from './UI/BgImg';
-
 
 const imgsNum = [1, 2, 3, 4, 5]
 const Facts = () => {
     return (
         <section className="fact section">
-        <BgImg url={bgImg} urlMob={bgMobOmg} className='top-50'/>
+        <BgImg url={bgImg} urlMob={bgMobImg} className='top-50'/>
          <div className="container">
            <div className="fact__wrapper">
             {
@@ -37,7 +36,7 @@ const Facts = () => {
                ))
             }
            </div>
-           <img className="fact__mask-mob" src="./img/page/fact-mob.png" alt="masks"/>
+           <img className="fact__mask-mob" src="./img/facts/fact-mob.png" alt="masks"/>
            <p className="fact__sign">To make each mask from the collection an absolutely unique, hand-picked piece of art</p>
          </div>
        </section>
