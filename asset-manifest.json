@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/react-ntf/static/css/main.b7e64c52.css",
+    "main.js": "/react-ntf/static/js/main.bb8bfc41.js",
+    "static/media/main-bg3.png": "/react-ntf/static/media/main-bg3.fbbefa06136d990e94b6.png",
+    "static/media/main-bg1.png": "/react-ntf/static/media/main-bg1.c891f6de61e55c223bb9.png",
+    "static/media/main-bg2.png": "/react-ntf/static/media/main-bg2.c347cb12270c1a92af96.png",
+    "static/media/hero-bg2.png": "/react-ntf/static/media/hero-bg2.f56ff0c0d582f2d6a8ad.png",
+    "static/media/main-bg_mob2.png": "/react-ntf/static/media/main-bg_mob2.f939ef13da3b69dc05b3.png",
+    "static/media/main-bg_mob1.png": "/react-ntf/static/media/main-bg_mob1.70548fa540dc67622c0f.png",
+    "static/media/main-bg_mob3.png": "/react-ntf/static/media/main-bg_mob3.63e6a4c0870287226129.png",
+    "static/media/hero-mob-bg.png": "/react-ntf/static/media/hero-mob-bg.a1e32fdde9bd2d77f546.png",
+    "static/media/table.svg": "/react-ntf/static/media/table.6b354886e02980a0be451f95dbcc8f32.svg",
+    "static/media/fact-green-mask-filter.png": "/react-ntf/static/media/fact-green-mask-filter.7accee659af75f5e5abe.png",
+    "static/media/map-green-filter.png": "/react-ntf/static/media/map-green-filter.8c7a97cf63cd5b19b726.png",
+    "static/media/map-red-filter.png": "/react-ntf/static/media/map-red-filter.3950a792163066cb9b04.png",
+    "static/media/faq-mask-2.png": "/react-ntf/static/media/faq-mask-2.6487d54c89a328f375bc.png",
+    "static/media/table-mob.png": "/react-ntf/static/media/table-mob.9302ed720c9ed1f0537b.png",
+    "static/media/faq-mask-1.png": "/react-ntf/static/media/faq-mask-1.7176088c30b0ed0db3fb.png",
+    "static/media/Montserrat-LightItalic.woff": "/react-ntf/static/media/Montserrat-LightItalic.0fd0303d158643572204.woff",
+    "static/media/Montserrat-Regular.woff": "/react-ntf/static/media/Montserrat-Regular.1b2e48a2bfdd86d56abf.woff",
+    "static/media/Montserrat-Light.woff": "/react-ntf/static/media/Montserrat-Light.22e217b596643a63c0ff.woff",
+    "static/media/fact-red-filter.png": "/react-ntf/static/media/fact-red-filter.54f228648893a1e7d192.png",
+    "static/media/fact-green-filter.png": "/react-ntf/static/media/fact-green-filter.594aeef77fed3b3f8aa1.png",
+    "static/media/Candal.woff": "/react-ntf/static/media/Candal.ea15a180a66416e43a7c.woff",
+    "static/media/table-mask.png": "/react-ntf/static/media/table-mask.dceeb098bea5da5cb1bb.png",
+    "static/media/logo.svg": "/react-ntf/static/media/logo.13d8ebc84fecfd10f9f235943348dbc5.svg",
+    "static/media/wallet.svg": "/react-ntf/static/media/wallet.b2b255d1d514b9818ed5.svg",
+    "static/media/table-arrow.svg": "/react-ntf/static/media/table-arrow.6b8872cfcec005ee18c3324275b97587.svg",
+    "index.html": "/react-ntf/index.html",
+    "main.b7e64c52.css.map": "/react-ntf/static/css/main.b7e64c52.css.map",
+    "main.bb8bfc41.js.map": "/react-ntf/static/js/main.bb8bfc41.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7e64c52.css",
+    "static/js/main.bb8bfc41.js"
+  ]
+}
