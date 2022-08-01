@@ -9,7 +9,7 @@ const imgsNum = [1, 2, 3, 4, 5]
 const Facts = () => {
     return (
         <section className="fact section">
-        <BgImg url={bgImg} urlMob={bgMobImg} className='top-50'/>
+        <BgImg url={bgImg} mobUrl={bgMobImg} className='top-50'/>
          <div className="container">
            <div className="fact__wrapper">
             {

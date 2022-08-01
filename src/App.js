@@ -38,7 +38,9 @@ function App() {
       const obj = {target: bg, top: top, bottom: bottom};
       arrBg.push(obj)
     })
-    paralaxBgMain(arrBg)
+    setTimeout(() => {
+      paralaxBgMain(arrBg)
+    }, 100)
   }
 
   const paralaxBgMain = (posBg) => {
