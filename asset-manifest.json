@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-ntf/static/css/main.b7e64c52.css",
-    "main.js": "/react-ntf/static/js/main.bb8bfc41.js",
+    "main.css": "/react-ntf/static/css/main.05a78992.css",
+    "main.js": "/react-ntf/static/js/main.cddce6e8.js",
     "static/media/main-bg3.png": "/react-ntf/static/media/main-bg3.fbbefa06136d990e94b6.png",
     "static/media/main-bg1.png": "/react-ntf/static/media/main-bg1.c891f6de61e55c223bb9.png",
     "static/media/main-bg2.png": "/react-ntf/static/media/main-bg2.c347cb12270c1a92af96.png",
@@ -28,11 +28,11 @@
     "static/media/wallet.svg": "/react-ntf/static/media/wallet.b2b255d1d514b9818ed5.svg",
     "static/media/table-arrow.svg": "/react-ntf/static/media/table-arrow.6b8872cfcec005ee18c3324275b97587.svg",
     "index.html": "/react-ntf/index.html",
-    "main.b7e64c52.css.map": "/react-ntf/static/css/main.b7e64c52.css.map",
-    "main.bb8bfc41.js.map": "/react-ntf/static/js/main.bb8bfc41.js.map"
+    "main.05a78992.css.map": "/react-ntf/static/css/main.05a78992.css.map",
+    "main.cddce6e8.js.map": "/react-ntf/static/js/main.cddce6e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7e64c52.css",
-    "static/js/main.bb8bfc41.js"
+    "static/css/main.05a78992.css",
+    "static/js/main.cddce6e8.js"
   ]
 }
