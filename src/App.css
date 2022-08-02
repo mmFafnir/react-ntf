@@ -1843,6 +1843,7 @@ template {
   font-family: "Candal", sans-serif;
   font-weight: 400;
   font-size: 25px;
+  border: solid 1px #fff;
 }
 
 @media (max-width: 1199px) {

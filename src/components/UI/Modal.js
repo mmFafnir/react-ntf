@@ -1,5 +1,6 @@
 
 import React, { useEffect } from 'react';
+import { getScrollbarWidth } from '../../scripts/getScrollWidth';
 
 const Modal = ({
     children, setOpen, open, className, callback = null
@@ -10,13 +11,18 @@ const Modal = ({
         if(callback) {
             callback()
         }
+        
     }
     useEffect(() => {
         setTimeout(() => {
             if(open) {
                 document.body.classList.add('scroll-lock');
+                if(window.innerWidth > 700) {
+                    document.body.style.paddingRight = `${getScrollbarWidth()}px`;
+                }
             } else {
                 document.body.classList.remove('scroll-lock');
+                document.body.style.paddingRight = '0px'
             }
         }, 300)
     }, [open])

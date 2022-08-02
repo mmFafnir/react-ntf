@@ -13,9 +13,9 @@ import ModalForm from './components/ModalForm';
 import ModalWallet from './components/ModalWallet';
 import ModalMint from './components/ModalMint';
 import ModalGender from './components/ModalGender';
+import NotifyModal from './components/UI/NotifyModal';
 
 import './App.css';
-import NotifyModal from './components/UI/NotifyModal';
 
 function App() {
 
@@ -38,6 +38,7 @@ function App() {
       const obj = {target: bg, top: top, bottom: bottom};
       arrBg.push(obj)
     })
+    console.log(arrBg)
     setTimeout(() => {
       paralaxBgMain(arrBg)
     }, 100)
