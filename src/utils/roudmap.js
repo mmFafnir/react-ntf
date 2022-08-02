@@ -2,7 +2,7 @@
 
 export const roudMapArr = [
     {
-        code: 'Q3 2022',
+        code: 'Q4 2022',
         icon: './img/roudmap/icon/check.svg',
         lists: [
             {
@@ -11,7 +11,7 @@ export const roudMapArr = [
             },
             {
                 title: 'Presale and sale',
-                text: 'Public mint will launch in July. Part of the collection will be available for those in a whitelist, the remaining part will go public'
+                text: 'Public mint will launch in October. Part of the collection will be available for those in a whitelist, the remaining part will go public'
             },
             {
                 title: '3D mannequins NFT drop',
@@ -20,11 +20,11 @@ export const roudMapArr = [
         ]
     },
     {
-        code: 'Q3 2022',
+        code: 'Q4 2022',
         icon: './img/roudmap/icon/check.svg',
         lists: [
             {
-                title: 'Heads of departments and deputies election in July',
+                title: 'Heads of departments and deputies election in October',
                 text: 'Most active and reliable members of the community will be selected to be a part of the team and heads of the departments through interviews or special quests. Other members will take remaining positions through a voting process',
             },
             {
@@ -42,7 +42,7 @@ export const roudMapArr = [
         ]
     },
     {
-        code: 'Q4 2022',
+        code: 'Q1 2023',
         icon: './img/roudmap/icon/time.svg',
         lists: [
             {
@@ -60,7 +60,7 @@ export const roudMapArr = [
         ]
     },
     {
-        code: 'Q1 2022',
+        code: 'Q2 2022',
         icon: './img/roudmap/icon/time.svg',
         lists: [
             {
@@ -82,7 +82,7 @@ export const roudMapArr = [
         ]
     },
     {
-        code: 'Q2 2023',
+        code: 'Q3 2023',
         icon: './img/roudmap/icon/time.svg',
         lists: [
             {
@@ -91,14 +91,14 @@ export const roudMapArr = [
             },
             {
                 title: 'Mandelbrot Token',
-                text: `The team will create a token of our own inside our ecosystem using the fund and money from the upcoming NFT projects. Each Mandelbrot Mask holder with get a share. ${<br/>} 
-                Used to buy merch, upcoming NFTs, invest in community projects. ${<br/>} 
+                text: `The team will create a token of our own inside our ecosystem using the fund and money from the upcoming NFT projects. Each Mandelbrot Mask holder with get a share. 
+                Used to buy merch, upcoming NFTs, invest in community projects.
                 Earned by contributing to the projects and holding the original NFTs.`,
             },
         ]
     },
     {
-        code: 'Q3 2023',
+        code: 'Q4 2023',
         icon: './img/roudmap/icon/time.svg',
         lists: [
             {

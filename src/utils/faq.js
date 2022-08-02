@@ -19,7 +19,7 @@ export const faq = [
     },
     {
         question: 'When is mint?',
-        answer: 'July 2022'
+        answer: 'October 2022'
     },
     {
         question: 'What is the mint price?',
@@ -57,7 +57,7 @@ export const faq = [
     },
     {
         question: 'How many Mandelbrot Masks can I mint per wallet?',
-        answer: `1 mask at public sale. 2 masks for whitelists. We’re not aiming for a quick sell-out, since we look
+        answer: `2 masks. We’re not aiming for a quick sell-out, since we look
         for long-term holders who will contribute to the community, that’s why masks left after the presale
         will be available for as long as there are people willing to join in.`
     },
