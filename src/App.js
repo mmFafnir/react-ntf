@@ -38,10 +38,7 @@ function App() {
       const obj = {target: bg, top: top, bottom: bottom};
       arrBg.push(obj)
     })
-    console.log(arrBg)
-    setTimeout(() => {
       paralaxBgMain(arrBg)
-    }, 100)
   }
 
   const paralaxBgMain = (posBg) => {
@@ -63,9 +60,11 @@ function App() {
   
 
   useEffect(() => {
-    updateBgData();
+    setTimeout(() => {
+      updateBgData();
+    }, 2000)
     window.addEventListener('resize', () => {
-      setTimeout(() => updateBgData(), 100,)
+      setTimeout(() => updateBgData(), 100)
     })    
   }, [])
 
